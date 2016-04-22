@@ -1,0 +1,1 @@
+javascript: function shuffle(b){for(var c=b.length,d=0,e;c--;)d=Math.floor(Math.random()*(c+1)),e=b[c],b[c]=b[d],b[d]=e;return b}var arr_s=prompt("Enter a list seperated by space, ex: 'Daniel DC Chen'"),arr=arr_s.split(" "),arr=shuffle(arr),str="",a;for(a in arr)var i=1+parseInt(a),str=str+(i+": "+arr[a]+"\n");alert(str);
