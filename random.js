@@ -21,4 +21,4 @@ for (var a in arr) {
   var i = 1 + parseInt(a);
   str += i + ": " + arr[a] + "\n";
 }
-alert(str);
+prompt("Ctrl+C to copy", str);
